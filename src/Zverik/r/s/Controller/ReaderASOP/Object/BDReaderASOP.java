@@ -7,6 +7,9 @@ import java.util.Collections;
 import java.util.LinkedHashSet;
 import java.util.Set;
 
+/**
+ * Класс реализующий чтение данных тестов из базы данных
+ */
 public class BDReaderASOP implements ReaderASOP {
 
     private final LinkedHashSet<String> fileNames;
